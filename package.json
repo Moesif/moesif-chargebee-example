@@ -1,0 +1,42 @@
+{
+  "name": "moesif-chargebee-example",
+  "version": "1.0.0",
+  "description": "An example app integrating Moesif with Chargebee for usage-based billing",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moesif/moesif-chargebee-example"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha"
+  },
+  "keywords": [
+    "moesif",
+    "chargebee",
+    "billing",
+    "usage-based",
+    "consumption-based",
+    "pay as you go",
+    "invoice"
+  ],
+  "author": "Derric Gilling",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "chargebee": "^2.6.5",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "express-basic-auth": "^1.2.0",
+    "lodash": "^4.17.15",
+    "moesif-nodejs": "3.1.3",
+    "moment": "^2.29.1",
+    "superagent": "^6.1.0"
+  },
+  "engines": {
+    "node": "8.9.1"
+  },
+  "devDependencies": {
+    "mocha": "^6.2.2"
+  }
+}
